@@ -10,7 +10,7 @@ const proto = grpc.load({
 server.addProtoService(proto.demo.Greeter.service, {
   sayHello: (ctx, cb) => {
     const message = `Hello ${ctx.request.name}.`
-    cb({message})
+    cb(null, {message})
   }
 })
 
