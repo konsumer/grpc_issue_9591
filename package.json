@@ -1,0 +1,13 @@
+{
+  "name": "grpc_issue",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "license": "MIT",
+  "dependencies": {
+    "grpc": "^1.1.2"
+  }
+}
